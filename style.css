@@ -1,0 +1,19 @@
+/* Error: $n: Invalid index 3 for a list with 2 elements.
+ *   ,
+ * 7 |   @return list.nth($colores, $posicion);
+ *   |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   functions.scss 7:11  colorSectionTitle()
+ *   otros.scss 5:14      @import
+ *   style.scss 7:9       root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: $n: Invalid index 3 for a list with 2 elements.\a   \2577 \a 7 \2502    @return list.nth($colores, $posicion);\d\a   \2502            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   functions.scss 7:11  colorSectionTitle()\a   otros.scss 5:14      @import\a   style.scss 7:9       root stylesheet";
+}

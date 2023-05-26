@@ -1,0 +1,57 @@
+// _otros.scss
+
+@for $i from 1 through 4 {
+    .section-title-#{$i} {
+      color: colorSectionTitle($i);
+    }
+  }
+  
+
+
+  $color-primary: #2c3e50;
+$color-secondary: #ecf0f1;
+$color-tertiary: #3498db;
+
+.full-name {
+  font-size: 2em;
+  font-weight: bold;
+  color: $color-primary;
+}
+
+.contact-info {
+  font-size: 1.2em;
+  color: $color-secondary;
+}
+
+.about {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: $color-secondary;
+}
+
+.position {
+  font-weight: bold;
+  color: $color-tertiary;
+}
+
+.desc {
+  margin-top: 10px;
+}
+
+.section__title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.section__list-item {
+  margin-bottom: 20px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}

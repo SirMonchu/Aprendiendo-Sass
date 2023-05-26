@@ -1,0 +1,8 @@
+// _functions.scss
+
+@use "sass:list";
+
+@function colorSectionTitle($posicion) {
+  $colores: ($dark-color, $light-color);
+  @return list.nth($colores, $posicion);
+}

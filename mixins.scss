@@ -1,0 +1,15 @@
+// _mixins.scss
+
+@mixin reset {
+    margin: 0;
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+    }
+  }
+  
+  @mixin centrado($margen-superior, $margen-inferior, $tamano) {
+    margin-top: $margen-superior;
+    margin-bottom: $margen-inferior;
+    font-size: $tamano;
+  }
+  

@@ -1,0 +1,16 @@
+// _section.scss
+
+.section {
+    background-color: $dark-color;
+    margin: 20px;
+    
+    &__title {
+      color: $light-color;
+      font-size: 20px;
+    }
+    
+    &__list-item {
+      margin-bottom: 10px;
+    }
+  }
+  
