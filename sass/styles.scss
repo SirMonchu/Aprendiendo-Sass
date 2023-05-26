@@ -1,0 +1,58 @@
+// Definir variables
+$color-primario: #3a3a3a;
+$color-secundario: #b0b0b0;
+$dimension-contenedor: 800px;
+
+// Estilos principales
+body {
+  font-family: Arial, sans-serif;
+  color: $color-primario;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: $color-secundario;
+  padding: 20px;
+  text-align: center;
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+section {
+  padding: 20px;
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  p, ul {
+    margin-bottom: 15px;
+  }
+
+  ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+}
+
+footer {
+  background-color: $color-secundario;
+  padding: 20px;
+  text-align: center;
+
+  p {
+    font-size: 16px;
+    margin: 0;
+  }
+}

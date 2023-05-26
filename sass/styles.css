@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #3a3a3a;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #b0b0b0;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+header p {
+  font-size: 18px;
+  margin: 0;
+}
+
+section {
+  padding: 20px;
+}
+section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+section p, section ul {
+  margin-bottom: 15px;
+}
+section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #b0b0b0;
+  padding: 20px;
+  text-align: center;
+}
+footer p {
+  font-size: 16px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
